@@ -5,8 +5,7 @@
 use std::collections::btree_map::Entry;
 
 // Used in docs
-#[allow(unused_imports)]
-use schemars::gen::SchemaSettings;
+#[allow(unused_imports)] use schemars::gen::SchemaSettings;
 
 use schemars::{
     schema::{ObjectValidation, Schema, SchemaObject},
