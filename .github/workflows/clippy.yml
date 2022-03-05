@@ -1,5 +1,5 @@
 on:
-  pull_request:
+  push: ~
 name: clippy
 jobs:
   clippy_nightly:

@@ -3,9 +3,7 @@ name: Devcontainer
 # When a pull request is opened that changes the Devcontainer configuration,
 # ensure that the container continues to build properly.
 on:
-  pull_request:
-    paths:
-      - .devcontainer/**
+  push: ~
 
 permissions:
   contents: read

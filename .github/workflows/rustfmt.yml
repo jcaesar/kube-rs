@@ -1,10 +1,7 @@
 # When pushed to master, run `cargo +nightly fmt --all` and open a PR.
 name: rustfmt
 on:
-  push:
-    # Limit to `master` because this action creates a PR
-    branches:
-      - master
+  push: ~
 jobs:
   rustfmt_nightly:
     runs-on: ubuntu-latest
